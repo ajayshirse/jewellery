@@ -78,3 +78,9 @@ This is frontend-only. Records are fictional sample data saved in this browser's
 - Collapse preference is remembered in the same browser.
 - Expenses has a dedicated route and navigation entry.
 - Demo records persist in `localStorage` across refreshes.
+
+
+## JavaScript file structure
+- `Inline JavaScript inside each HTML page` — shared application logic, module rendering, demo records, forms, overlays, search, and CSV export.
+- `assets/js/nav-sidebar.js` — sidebar navigation/collapse/mobile behavior and shared navbar controls (rate shortcut, notifications, admin dropdown, logout).
+- `assets/js/project-store.js` — reserved small storage helper file; demo data persistence currently remains in `app.js`.
